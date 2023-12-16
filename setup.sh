@@ -130,7 +130,7 @@ elif [[ $opsi == "2" ]]; then
 echo ""
 echo "Opsi 2 terpilih ✓"
 sleep 2
-echo -e "Anda Akan Menggunakan Domain ${bold}scwilll.my.id${NC}"
+echo -e "Anda Akan Menggunakan Domain ${bold}x-project-vpn.com${NC}"
 sleep 2
 echo -e "Dengan Random Subdomain Yang Dipilih Oleh Script"
 sleep 2
@@ -141,9 +141,9 @@ sleep 4
   echo "Check Domain...."
   sleep 3
 MYIP=$(curl ipinfo.io/ip)
-AUTH_EMAIL="asistenwilliam@gmail.com"
-AUTH_KEY="9e3a02145dafb780665d8c6d29fa5b409ee83"
-DOMAIN="scwilll.my.id"
+AUTH_EMAIL="rizkihdyt6@gmail.com"
+AUTH_KEY="15c999c8f900f4d36851f95d05f9c34b9130a"
+DOMAIN="x-project-vpn.com"
 
 ZONE_ID=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
      -H "X-Auth-Email: ${AUTH_EMAIL}" \
