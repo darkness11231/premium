@@ -134,9 +134,9 @@ elif [[ $opsi == "2" ]]; then
     echo "Check Domain...."
     sleep 3
     MYIP=$(curl -s ipinfo.io/ip)
-    AUTH_EMAIL="rizkihdyt6@gmail.com"
-    AUTH_KEY="15c999c8f900f4d36851f95d05f9c34b9130a"
-    DOMAIN="x-project-vpn.com"
+    AUTH_EMAIL="muslihudin197@gmail.com"
+    AUTH_KEY="83d401869dd683b7b0346681bf22cac37ce68"
+    DOMAIN="vpninject.pro"
 
     ZONE_ID=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
          -H "X-Auth-Email: ${AUTH_EMAIL}" \
